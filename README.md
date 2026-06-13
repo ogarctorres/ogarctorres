@@ -17,3 +17,4 @@ Projeto para tratamento e análise de dados de vendas utilizando Pandas.
 
 📫 Contato:
 LinkedIn: linkedin.com/in/vinicius-torres
+Email: viniciusstgarcia@outlook.com
