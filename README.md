@@ -1,6 +1,16 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=Vinicius%20Torres&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Ciência%20da%20Computação%20·%20Back-end%20%26%20Dados&descAlignY=58&descColor=c7d2fe)
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="150" fill="url(#grad)" rx="12"/>
+  <text x="400" y="65" font-family="monospace" font-size="36" font-weight="bold" fill="white" text-anchor="middle">Vinicius Torres</text>
+  <text x="400" y="105" font-family="monospace" font-size="16" fill="#c7d2fe" text-anchor="middle">Ciência da Computação · Back-end e Dados</text>
+</svg>
 
 </div>
 
