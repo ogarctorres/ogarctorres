@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=Vinicius%20Torres&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Ciência%20da%20Computação%20·%20Back-end%20%26%20Dados&descAlignY=58&descColor=c7d2fe" width="100%"/>
+![header](https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=Vinicius%20Torres&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Ciência%20da%20Computação%20·%20Back-end%20%26%20Dados&descAlignY=58&descColor=c7d2fe)
 
 </div>
 
