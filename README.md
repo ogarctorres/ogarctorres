@@ -7,7 +7,7 @@
 
 # 👨‍💻 Vinicius Torres
 
-### Ciência da Computação · Back-end & Dados
+### Ciência da Computação · Full Stack
 
 </div>
 
