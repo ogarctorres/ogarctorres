@@ -3,7 +3,6 @@
 ![banner](https://img.shields.io/badge/Vinicius%20Torres-Ciência%20da%20Computação%20·%20Back--end%20%26%20Dados-6366f1?style=for-the-badge&labelColor=4f46e5)
 
 <br/>
-<br/>
 
 # 👨‍💻 Vinicius Torres
 
@@ -18,14 +17,37 @@ dev = {
     "nome":        "Vinicius Torres",
     "curso":       "Ciência da Computação",
     "foco":        ["Back-end", "APIs", "Dados"],
-    "stack":       ["Python", "Flask", "Pandas", "HTML/CSS/JS"],
-    "ferramentas": ["VS Code", "Git", "Postman", "Pytest"],
+    "stack":       ["Python", "FastAPI", "Next.js", "TypeScript", "Pandas"],
     "aberto_a":    "estágios · projetos · colaborações",
-    "status":      "construindo portfólio 🚀",
+    "status":      "construindo ferramentas que resolvem problemas reais 🚀",
 }
 ```
 
-<br/>
+---
+
+## 🚀 Projeto em destaque
+
+### 🚨 [Bus Factor Radar](https://github.com/ogarctorres/bus-factor-radar)
+> Analisa qualquer repositório público do GitHub e mostra, em um grafo interativo,
+> onde o conhecimento do time está perigosamente concentrado em uma única pessoa.
+> Calcula o **Bus Factor real** — quantas pessoas precisam sumir pra travar o projeto —
+> a partir do histórico de commits, não de achismo.
+
+`Python` `FastAPI` `Next.js` `TypeScript` `React Flow`
+
+---
+
+## 📦 Outros projetos
+
+### Pipeline de Vendas em Python
+> Pipeline de dados com Pandas, relatórios automáticos e dashboard web.
+
+`Python` `Pandas` `Matplotlib` `Pytest`
+
+### API de Tarefas com Flask
+> API REST com CRUD completo, validação e testes automatizados.
+
+`Python` `Flask` `REST API` `Pytest`
 
 ---
 
@@ -34,69 +56,13 @@ dev = {
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
-
-<br/>
-
----
-
-## 🚀 Projetos em Destaque
-
-<div align="center">
-
-<a href="https://github.com/ogarctorres/pipeline_vendas_python">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ogarctorres&repo=pipeline_vendas_python&theme=tokyonight&hide_border=true&title_color=6366f1&icon_color=6366f1" />
-</a>
-<a href="https://github.com/ogarctorres/api-tarefas-flask">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ogarctorres&repo=api-tarefas-flask&theme=tokyonight&hide_border=true&title_color=6366f1&icon_color=6366f1" />
-</a>
-
-</div>
-
-<br/>
-
-### 📦 Pipeline de Vendas em Python
-> Pipeline completo de dados que lê CSVs de vendas, limpa com **Pandas**, gera relatórios automáticos e visualizações com **Matplotlib** — com testes automatizados via **Pytest** e dashboard web em HTML/CSS/JS.
-
-`Python` `Pandas` `Matplotlib` `Pytest` `HTML` `CSS` `JavaScript`
-
-<br/>
-
-### 🗂 API de Tarefas com Flask
-> API REST com **CRUD completo** (GET, POST, PUT, DELETE), persistência em JSON, validação de dados, tratamento de erros e testes automatizados com **Pytest**.
-
-`Python` `Flask` `REST API` `Pytest` `Postman`
-
-<br/>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ogarctorres&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=6366f1&icon_color=6366f1&text_color=c7d2fe&bg_color=0d1117" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ogarctorres&layout=compact&theme=tokyonight&hide_border=true&title_color=6366f1&text_color=c7d2fe&bg_color=0d1117&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=ogarctorres&theme=tokyonight&hide_border=true&ring=6366f1&fire=6366f1&currStreakLabel=6366f1&background=0d1117)
-
-</div>
-
-<br/>
 
 ---
 
@@ -109,16 +75,8 @@ dev = {
 
 </div>
 
-<br/>
-
----
-
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=ogarctorres&style=flat-square&color=6366f1&label=visitas+ao+perfil" />
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=100&section=footer" width="100%"/>
 
 </div>
