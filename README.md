@@ -16,7 +16,7 @@
 dev = {
     "nome":        "Vinicius Torres",
     "curso":       "Ciência da Computação",
-    "foco":        ["Back-end", "APIs", "Dados"],
+    "foco":        ["Full Stack"],
     "stack":       ["Python", "FastAPI", "Next.js", "TypeScript", "Pandas"],
     "aberto_a":    "estágios · projetos · colaborações",
     "status":      "construindo ferramentas que resolvem problemas reais 🚀",
