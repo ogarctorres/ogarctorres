@@ -1,82 +1,37 @@
 <div align="center">
 
-![banner](https://img.shields.io/badge/Vinicius%20Torres-Ciência%20da%20Computação%20·%20Back--end%20%26%20Dados-6366f1?style=for-the-badge&labelColor=4f46e5)
+<!-- Banner Superior de Alta Definição -->
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=180&section=header&text=Vinicius%20Garcia%20Torres&fontSize=42&fontColor=ffffff&fontAlignY=40&desc=Software%20Engineer%20%C2%B7%20Back-end%20%26%20Sistemas%20de%20Dados&descSize=18&descAlignY=62&descColor=818cf8)
+
+<!-- Typing SVG Dinâmico -->
+<a href="https://github.com/ogarctorres">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=620&lines=%E2%9A%A1+Software+Engineer+%C2%B7+Back-end+%26+Dados;%F0%9F%90%8D+Python+%C2%B7+FastAPI+%C2%B7+Arquitetura+Ass%C3%ADncrona;%F0%9F%A7%A0+Orquestra%C3%A7%C3%A3o+de+LLMs+e+Pipelines+em+Produ%C3%A7%C3%A3o;%F0%9F%9A%80+Foco+em+Baixa+Lat%C3%AAncia%2C+Clean+Code+e+Testes" alt="Typing SVG" />
+</a>
 
 <br/>
 
-# 👨‍💻 Vinicius Torres
-
-### Ciência da Computação · Full Stack
+<!-- Status Pills -->
+[![Disponibilidade](https://img.shields.io/badge/Status-Dispon%C3%ADvel%20para%20Est%C3%A1gio-10B981?style=for-the-badge&logo=statuspage&logoColor=white)](https://www.linkedin.com/in/vinicius-t-a0703931b/)
+[![Curso](https://img.shields.io/badge/Formação-Ciência%20da%20Computação-6366F1?style=for-the-badge&logo=google-scholar&logoColor=white)](https://github.com/ogarctorres)
+[![Localização](https://img.shields.io/badge/Local-São%20Paulo%2C%20Brasil-3B82F6?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/ogarctorres)
 
 </div>
 
 <br/>
 
-```python
-dev = {
-    "nome":        "Vinicius Torres",
-    "curso":       "Ciência da Computação",
-    "foco":        ["Full Stack"],
-    "stack":       ["Python", "FastAPI", "Next.js", "TypeScript", "Pandas"],
-    "aberto_a":    "estágios · projetos · colaborações",
-    "status":      "construindo ferramentas que resolvem problemas reais 🚀",
-}
-```
+### 🖥️ `vinicius@workstation:~$ fastfetch --profile software-engineer`
 
----
-
-## 🚀 Projeto em destaque
-
-### 🚨 [Bus Factor Radar](https://github.com/ogarctorres/bus-factor-radar)
-> Analisa qualquer repositório público do GitHub e mostra, em um grafo interativo,
-> onde o conhecimento do time está perigosamente concentrado em uma única pessoa.
-> Calcula o **Bus Factor real** — quantas pessoas precisam sumir pra travar o projeto —
-> a partir do histórico de commits, não de achismo.
-
-`Python` `FastAPI` `Next.js` `TypeScript` `React Flow`
-
----
-
-## 📦 Outros projetos
-
-### Pipeline de Vendas em Python
-> Pipeline de dados com Pandas, relatórios automáticos e dashboard web.
-
-`Python` `Pandas` `Matplotlib` `Pytest`
-
-### API de Tarefas com Flask
-> API REST com CRUD completo, validação e testes automatizados.
-
-`Python` `Flask` `REST API` `Pytest`
-
----
-
-## 🛠 Tecnologias & Ferramentas
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 🌐 Onde me encontrar
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-t-a0703931b/)
-[![Email](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:viniciusstgarcia@outlook.com)
-
-</div>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=ogarctorres&style=flat-square&color=6366f1&label=visitas+ao+perfil" />
-
-</div>
+```bash
+ 🔴 🟡 🟢  ~ /home/vinicius/core-specs
+ ─────────────────────────────────────────────────────────────────────────────
+  ██╗   ██╗██╗███╗   ██╗██╗ ██████╗██╗██╗   ██╗███████╗  OS: Linux x86_64
+  ██║   ██║██║████╗  ██║██║██╔════╝██║██║   ██║██╔════╝  Role: Software Engineer (Back-end & Dados)
+  ██║   ██║██║██╔██╗ ██║██║██║     ██║██║   ██║███████╗  Degree: Ciência da Computação (2º Semestre)
+  ╚██╗ ██╔╝██║██║╚██╗██║██║██║     ██║██║   ██║╚════██║  Languages: Python, SQL, TypeScript, C/C++
+   ╚████╔╝ ██║██║ ╚████║██║╚██████╗██║╚██████╔╝███████║  Core: FastAPI, Uvicorn, REST, Webhooks
+    ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝ ╚═════╝ ╚══════╝  Data & AI: Gemini Flash, Pandas, ETL, PyPDF
+ ─────────────────────────────────────────────────────────────────────────────
+  Database: PostgreSQL · SQLite · SQLAlchemy ORM
+  DevOps & Quality: Git, GitHub Actions, Docker, Pytest, Render, Vercel
+  Mindset: "Se não é mensurável e testado, não está pronto para produção."
+ ─────────────────────────────────────────────────────────────────────────────
