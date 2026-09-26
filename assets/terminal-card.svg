@@ -1,0 +1,32 @@
+<svg width="940" height="310" viewBox="0 0 940 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Resumo técnico do perfil de Vinicius Torres</title>
+  <defs>
+    <linearGradient id="line" x1="34" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="0.45" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="940" height="310" rx="24" fill="#080B16"/>
+  <rect x="1" y="1" width="938" height="308" rx="23" stroke="#FFFFFF" stroke-opacity="0.13"/>
+  <rect width="940" height="45" rx="24" fill="#111827"/>
+  <circle cx="31" cy="23" r="6" fill="#EF4444"/>
+  <circle cx="55" cy="23" r="6" fill="#F59E0B"/>
+  <circle cx="79" cy="23" r="6" fill="#10B981"/>
+  <text x="108" y="29" fill="#94A3B8" font-family="Consolas, Monaco, monospace" font-size="16">torres-dev.log</text>
+  <rect x="34" y="66" width="872" height="3" rx="1.5" fill="url(#line)" opacity="0.9"/>
+
+  <text x="36" y="104" fill="#10B981" font-family="Consolas, Monaco, monospace" font-size="19">[01] work</text>
+  <text x="220" y="104" fill="#E5E7EB" font-family="Consolas, Monaco, monospace" font-size="19">Full Stack &amp; Backend — Python, FastAPI, React e SQL</text>
+
+  <text x="36" y="148" fill="#06B6D4" font-family="Consolas, Monaco, monospace" font-size="19">[02] stack</text>
+  <text x="220" y="148" fill="#E5E7EB" font-family="Consolas, Monaco, monospace" font-size="19">FastAPI, Python 3.11, React 19, Supabase JWT, Pytest</text>
+
+  <text x="36" y="192" fill="#A78BFA" font-family="Consolas, Monaco, monospace" font-size="19">[03] now</text>
+  <text x="220" y="192" fill="#E5E7EB" font-family="Consolas, Monaco, monospace" font-size="19">Vektor (SaaS de IA em produção com 88 testes e 90% menos latência)</text>
+
+  <text x="36" y="236" fill="#FBBF24" font-family="Consolas, Monaco, monospace" font-size="19">[04] focus</text>
+  <text x="220" y="236" fill="#E5E7EB" font-family="Consolas, Monaco, monospace" font-size="19">arquitetura defensiva (OWASP), batching de IA, testes e código limpo</text>
+
+  <text x="36" y="280" fill="#94A3B8" font-family="Consolas, Monaco, monospace" font-size="17">APIs assíncronas, produtos escaláveis, dados e segurança defensiva.</text>
+</svg>

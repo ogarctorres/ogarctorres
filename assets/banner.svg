@@ -1,0 +1,113 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" fill="none" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Vinicius Torres — Desenvolvedor Full Stack &amp; Backend</title>
+  <desc id="desc">Identificação visual com nome, atuação em Engenharia de Software e stack principal.</desc>
+
+  <defs>
+    <linearGradient id="hairline" x1="260" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5E7EB" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#E5E7EB" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#E5E7EB" stop-opacity="0.10"/>
+      <stop offset="0.78" stop-color="#E5E7EB" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#E5E7EB" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+        dominant-baseline: alphabetic;
+      }
+
+      .stroke { vector-effect: non-scaling-stroke; }
+      .decor { stroke: url(#hairline); }
+      .label {
+        fill: #D6DEE8;
+        font-size: 13px;
+        font-weight: 750;
+        letter-spacing: 0.14em;
+        paint-order: stroke fill;
+        stroke: #050A12;
+        stroke-width: 2px;
+        stroke-opacity: 0.42;
+      }
+      .title {
+        fill: #F8FAFC;
+        font-size: 72px;
+        font-weight: 760;
+        letter-spacing: -0.04em;
+        paint-order: stroke fill;
+        stroke: #050A12;
+        stroke-width: 3px;
+        stroke-opacity: 0.46;
+      }
+      .subtitle {
+        fill: #E2E8F0;
+        font-size: 21px;
+        font-weight: 430;
+        letter-spacing: 0;
+        paint-order: stroke fill;
+        stroke: #050A12;
+        stroke-width: 2px;
+        stroke-opacity: 0.38;
+      }
+      .pill {
+        fill: #0B1220;
+        fill-opacity: 0.55;
+        stroke: #475569;
+        stroke-opacity: 0.42;
+      }
+      .pill-text {
+        fill: #F8FAFC;
+        font-size: 14px;
+        font-weight: 680;
+        letter-spacing: 0;
+        paint-order: stroke fill;
+        stroke: #050A12;
+        stroke-width: 1.4px;
+        stroke-opacity: 0.42;
+      }
+    </style>
+  </defs>
+
+  <g aria-hidden="true" opacity="0.9">
+    <path d="M220 72.5H460" class="stroke decor"/>
+    <path d="M740 72.5H980" class="stroke decor"/>
+    <path d="M352 231.5H848" class="stroke decor" opacity="0.55"/>
+  </g>
+
+  <text x="600" y="77" text-anchor="middle" class="label">ENGENHARIA DE SOFTWARE &amp; FULL STACK</text>
+  <text x="600" y="151" text-anchor="middle" class="title">Vinicius Torres</text>
+  <text x="600" y="193" text-anchor="middle" class="subtitle">Python · FastAPI · React · IA Aplicada · Arquitetura Defensiva</text>
+
+  <g aria-label="Stack principal">
+    <g transform="translate(170 226)">
+      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
+      <circle cx="26" cy="19" r="5.5" fill="#3776AB"/>
+      <text x="44" y="24" class="pill-text">Python</text>
+    </g>
+    <g transform="translate(324 226)">
+      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
+      <circle cx="26" cy="19" r="5.5" fill="#009688"/>
+      <text x="44" y="24" class="pill-text">FastAPI</text>
+    </g>
+    <g transform="translate(478 226)">
+      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
+      <circle cx="26" cy="19" r="5.5" fill="#61DAFB"/>
+      <text x="44" y="24" class="pill-text">React 19</text>
+    </g>
+    <g transform="translate(632 226)">
+      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
+      <circle cx="26" cy="19" r="5.5" fill="#336791"/>
+      <text x="44" y="24" class="pill-text">SQL / Postgres</text>
+    </g>
+    <g transform="translate(786 226)">
+      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
+      <circle cx="26" cy="19" r="5.5" fill="#2496ED"/>
+      <text x="44" y="24" class="pill-text">Docker</text>
+    </g>
+    <g transform="translate(940 226)">
+      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
+      <circle cx="26" cy="19" r="5.5" fill="#10B981"/>
+      <text x="44" y="24" class="pill-text">Pytest (88+)</text>
+    </g>
+  </g>
+</svg>
