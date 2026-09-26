@@ -1,117 +1,127 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Vinicius Torres — Desenvolvedor Full Stack &amp; Backend" width="100%" />
+  <img src="./assets/banner.svg" alt="Vinicius Torres — Software Engineer &amp; Applied AI" width="100%" />
 </p>
 
 ---
 
-## Sobre
+### ⚡ Sobre Mim &amp; Filosofia de Engenharia
 
-Desenvolvedor de Software com foco em **Backend**, **APIs de Alta Performance**, **Aplicações Web Modernas** e **Inteligência Artificial Aplicada**. Atuo com **Python**, **FastAPI**, **React 19**, **SQLAlchemy**, **PostgreSQL** e **Docker**, conectando arquitetura defensiva, testes automatizados e entrega contínua de ponta a ponta.
+Sou Desenvolvedor de Software focado em **Engenharia de Backend**, **APIs Assíncronas de Alta Performance**, **Arquitetura de Segurança Defensiva** e **Aplicações de Inteligência Artificial Generativa**.
+
+Minha atuação é pautada por três pilares práticos:
+1. **Otimização de Gargalos e I/O:** Redução de latência por meio de arquiteturas orientadas a eventos e processamento em lote (*batch matching*).
+2. **Segurança por Design:** Aplicação rigorosa das diretrizes **OWASP Top 10**, neutralizando vulnerabilidades de BOLA/IDOR, injeção de prompts e DoS em ingestão de arquivos.
+3. **Cultura de Testes & Regressão Zero:** Suítes contínuas de testes unitários e de integração que garantem estabilidade antes de qualquer deploy em produção.
 
 <p align="center">
-  <img src="./assets/terminal-card.svg" alt="Resumo técnico do perfil de Vinicius Torres" width="94%" />
+  <img src="./assets/terminal-card.svg" alt="Console de Telemetria e Diagnóstico do Perfil de Vinicius Torres" width="100%" />
 </p>
 
 ---
 
-## Atualmente
+### 🏛️ Pilares de Engenharia &amp; Especialidades
 
-- Desenvolvendo e mantendo em produção o **[Vektor](https://vektor-career.vercel.app)**, plataforma SaaS Full Stack de inteligência de carreira e recrutamento orientada por IA generativa (FastAPI, React 19, Supabase Auth, Google Gemini Flash).
-- Foco em **otimização de latência e custos de inferência** (redução de 40s para <3.5s via batch matching contextual) e **segurança de software** (mitigação de BOLA/IDOR, upload em chunks 64KB contra DoS e rate limiting por janela deslizante).
-- Prática constante de engenharia orientada a testes, com mais de **88 testes automatizados** contínuos garantindo regressão zero.
+```
+┌───────────────────────────────┬───────────────────────────────┬───────────────────────────────┐
+│     BACKEND & PERFORMANCE     │      DEFENSIVE SECURITY       │      APPLIED AI & LLMOPS      │
+├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│ • APIs ASGI com FastAPI       │ • Isolamento Multi-tenant     │ • Batch Contextual Matching   │
+│ • Python 3.11 assíncrono      │ • Proteção BOLA / IDOR        │ • Delimitadores XML Seguros   │
+│ • SQLAlchemy & PostgreSQL     │ • Ingestão por Chunks de 64KB │ • Schemas Pydantic v2         │
+│ • Cache TTL em Memória        │ • Validação de Magic Bytes    │ • Circuit Breakers & Fallback │
+│ • Docker & Microserviços      │ • Rate Limiting por Janela    │ • Redução de 90% de Latência  │
+└───────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
+```
 
 ---
 
-## Projetos em destaque
+### 🚀 Produtos em Produção &amp; Projetos Open Source
 
 <table>
+  <thead>
+    <tr>
+      <th width="50%">Projeto Principal</th>
+      <th width="50%">Projetos de Engenharia &amp; Dados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <h3>⚡ Vektor — Career &amp; Recruitment AI Platform</h3>
+        <p>Plataforma Full Stack SaaS que analisa currículos em PDF, compara competências com vagas reais via APIs em tempo real, gera diagnósticos explicativos, reescrita para ATS e cronogramas acelerados de estudos de 30 dias.</p>
+        <p><strong>Destaques de Engenharia:</strong></p>
+        <ul>
+          <li>Redução de latência de <strong>40s para &lt;3.5s</strong> com Batch Matching.</li>
+          <li>Esteira de ingestão blindada com <strong>leitura em chunks de 64KB</strong> e limite rígido de 8MB contra DoS de memória.</li>
+          <li>Isolamento de sessão JWT com cache em memória (TTL 60s) e rate limiting granular por IP.</li>
+          <li><strong>88 testes automatizados</strong> cobrindo regras de negócio, IA e segurança.</li>
+        </ul>
+        <p>
+          <a href="https://github.com/ogarctorres/job-matcher-"><strong>Repositório</strong></a> • 
+          <a href="https://vektor-career.vercel.app"><strong>Aplicação Web</strong></a> • 
+          <a href="https://vektor-0nam.onrender.com/docs"><strong>Swagger Docs</strong></a>
+        </p>
+      </td>
+      <td valign="top">
+        <h3>📊 Bus Factor Radar</h3>
+        <p>Ferramenta de mineração de dados em repositórios para cálculo do risco de continuidade técnica de código (Bus Factor).</p>
+        <p><code>Python</code> <code>Git Data Mining</code> <code>Pandas</code> <code>Docker</code></p>
+        <br />
+        <h3>⏳ Code Time Machine</h3>
+        <p>Motor de análise temporal de evolução de código e refatorações complexas.</p>
+        <p><code>Python</code> <code>AST Analysis</code> <code>Clean Architecture</code></p>
+        <br />
+        <p><a href="https://github.com/ogarctorres?tab=repositories"><strong>Ver todos os 9+ repositórios no GitHub →</strong></a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### 🛠️ Stack Tecnológica
+
+<table border="0">
   <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ Vektor — Career &amp; Recruitment AI Platform</h3>
-      <p>Plataforma SaaS em produção que analisa currículos em PDF, compara aderência com vagas de mercado em tempo real, gera reescrita para filtros ATS e planos de estudos semanais de 30 dias.</p>
-      <p>
-        <code>Python 3.11</code>
-        <code>FastAPI</code>
-        <code>React 19</code>
-        <code>Google Gemini</code>
-        <code>Supabase JWT</code>
-        <code>Pytest (88)</code>
-      </p>
-      <p>
-        <a href="https://github.com/ogarctorres/job-matcher-"><strong>Ver Repositório</strong></a> • 
-        <a href="https://vektor-career.vercel.app"><strong>Aplicação Web</strong></a> • 
-        <a href="https://vektor-0nam.onrender.com/docs"><strong>API Docs</strong></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 Bus Factor Radar &amp; Data Pipeline</h3>
-      <p>Ferramenta de engenharia de software e análise de dados para auditoria de repositórios, dependência de times e resiliência de bases de código.</p>
-      <p>
-        <code>Python</code>
-        <code>Pandas</code>
-        <code>Git API</code>
-        <code>Data Mining</code>
-        <code>Docker</code>
-      </p>
-      <p>
-        <a href="https://github.com/ogarctorres?tab=repositories"><strong>Ver projetos no GitHub</strong></a>
-      </p>
-    </td>
+    <td width="25%"><strong>Backend &amp; APIs</strong></td>
+    <td>Python 3.11, FastAPI, Uvicorn (ASGI), SQLAlchemy ORM, Pydantic v2, PyPDF</td>
+  </tr>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>React 19, Vite, JavaScript ES6+, Context API, CSS Acelerado por GPU</td>
+  </tr>
+  <tr>
+    <td><strong>Dados &amp; Armazenamento</strong></td>
+    <td>PostgreSQL, SQLite, Supabase Database, Pandas</td>
+  </tr>
+  <tr>
+    <td><strong>Inteligência Artificial</strong></td>
+    <td>Google Gemini Flash API, Engenharia de Prompts Estruturada, Guardrails</td>
+  </tr>
+  <tr>
+    <td><strong>Segurança &amp; DevOps</strong></td>
+    <td>Autenticação JWT Bearer, Rate Limiting (Sliding Window), Docker, Pytest (88 testes), Git</td>
   </tr>
 </table>
 
 ---
 
-## Como trabalho
-
-- **Entendimento & Modelagem:** Analisar o problema real de negócio, gargalos de I/O e requisitos de segurança antes de codificar.
-- **Arquitetura em Camadas:** Separação clara entre Rotas, Serviços de Negócio, Modelos e Infraestrutura.
-- **Segurança por Padrão (Defensive Engineering):** Princípio de menor privilégio, validação de tipos de dados (Pydantic), isolamento multi-tenant e proteção contra exaustão de recursos (DoS).
-- **Qualidade & Regressão Zero:** Suítes de testes unitários e de integração cobrindo fluxos críticos de ponta a ponta.
-
-```txt
-entender -> arquitetar -> implementar -> testar -> proteger -> entregar
-```
-
----
-
-## Stack Tecnológica
-
-<p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img alt="Pytest" src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
-
----
-
-## Contribuições
-
-Animação da grade de contribuições atualizada automaticamente via GitHub Actions:
+### 📈 Atividade Contínua &amp; Contribuições
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ogarctorres/ogarctorres/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ogarctorres/ogarctorres/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake graph das contribuições no GitHub" src="https://raw.githubusercontent.com/ogarctorres/ogarctorres/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <img alt="Snake animation das contribuições no GitHub" src="https://raw.githubusercontent.com/ogarctorres/ogarctorres/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
 ---
 
-## Contato & Redes
-
-Aberto a conversas sobre engenharia de software, arquitetura de sistemas e novas oportunidades profissionais.
+### 📬 Conecte-se comigo
 
 <p>
-  <a href="https://github.com/ogarctorres"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ogarctorres-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/ogarctorres?tab=repositories"><img alt="Repositórios" src="https://img.shields.io/badge/Reposit%C3%B3rios-ver%20projetos-10B981?style=for-the-badge&logo=git&logoColor=white" /></a>
-  <a href="mailto:ogarcfacul@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-ogarcfacul%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/ogarctorres"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ogarctorres-111827?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/ogarctorres?tab=repositories"><img alt="Repositórios" src="https://img.shields.io/badge/Projetos-9%20Repos-0284C7?style=for-the-badge&logo=git&logoColor=white" /></a>
+  <a href="mailto:ogarcfacul@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contato_Direto-10B981?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>

@@ -1,113 +1,132 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" fill="none" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
-  <title id="title">Vinicius Torres — Desenvolvedor Full Stack &amp; Backend</title>
-  <desc id="desc">Identificação visual com nome, atuação em Engenharia de Software e stack principal.</desc>
-
+<svg width="1200" height="320" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hairline" x1="260" y1="0" x2="940" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E5E7EB" stop-opacity="0"/>
-      <stop offset="0.22" stop-color="#E5E7EB" stop-opacity="0.34"/>
-      <stop offset="0.5" stop-color="#E5E7EB" stop-opacity="0.10"/>
-      <stop offset="0.78" stop-color="#E5E7EB" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#E5E7EB" stop-opacity="0"/>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060913"/>
+      <stop offset="0.6" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#080D1A"/>
     </linearGradient>
 
-    <style>
-      text {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-        dominant-baseline: alphabetic;
-      }
+    <!-- Accent Neon Cyan/Teal Gradient -->
+    <linearGradient id="accentGlow" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F2FE"/>
+      <stop offset="0.5" stop-color="#4FACFE"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
 
-      .stroke { vector-effect: non-scaling-stroke; }
-      .decor { stroke: url(#hairline); }
-      .label {
-        fill: #D6DEE8;
-        font-size: 13px;
-        font-weight: 750;
-        letter-spacing: 0.14em;
-        paint-order: stroke fill;
-        stroke: #050A12;
-        stroke-width: 2px;
-        stroke-opacity: 0.42;
-      }
-      .title {
-        fill: #F8FAFC;
-        font-size: 72px;
-        font-weight: 760;
-        letter-spacing: -0.04em;
-        paint-order: stroke fill;
-        stroke: #050A12;
-        stroke-width: 3px;
-        stroke-opacity: 0.46;
-      }
-      .subtitle {
-        fill: #E2E8F0;
-        font-size: 21px;
-        font-weight: 430;
-        letter-spacing: 0;
-        paint-order: stroke fill;
-        stroke: #050A12;
-        stroke-width: 2px;
-        stroke-opacity: 0.38;
-      }
-      .pill {
-        fill: #0B1220;
-        fill-opacity: 0.55;
-        stroke: #475569;
-        stroke-opacity: 0.42;
-      }
-      .pill-text {
-        fill: #F8FAFC;
-        font-size: 14px;
-        font-weight: 680;
-        letter-spacing: 0;
-        paint-order: stroke fill;
-        stroke: #050A12;
-        stroke-width: 1.4px;
-        stroke-opacity: 0.42;
-      }
+    <!-- Purple/Indigo Accent -->
+    <linearGradient id="purpleGlow" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.35"/>
+    </pattern>
+
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: "SF Mono", "Fira Code", "Cascadia Code", Consolas, Monaco, monospace; }
+      .title-name { font-size: 54px; font-weight: 800; fill: #F8FAFC; letter-spacing: -0.03em; }
+      .subtitle { font-size: 19px; font-weight: 450; fill: #94A3B8; letter-spacing: -0.01em; }
+      .status-pill { fill: #0F172A; stroke: #00F2FE; stroke-opacity: 0.35; }
+      .metric-card { fill: #0B132B; stroke: #1E293B; stroke-opacity: 0.8; rx: 12px; }
+      .metric-val { font-size: 16px; font-weight: 700; fill: #38BDF8; }
+      .metric-lbl { font-size: 11px; font-weight: 500; fill: #64748B; text-transform: uppercase; letter-spacing: 0.05em; }
     </style>
   </defs>
 
-  <g aria-hidden="true" opacity="0.9">
-    <path d="M220 72.5H460" class="stroke decor"/>
-    <path d="M740 72.5H980" class="stroke decor"/>
-    <path d="M352 231.5H848" class="stroke decor" opacity="0.55"/>
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="20" fill="url(#bgGrad)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+
+  <!-- Radial Glow Behind Title -->
+  <circle cx="200" cy="160" r="180" fill="#00F2FE" fill-opacity="0.04" filter="blur(60px)"/>
+  <circle cx="1000" cy="160" r="160" fill="#8B5CF6" fill-opacity="0.04" filter="blur(60px)"/>
+
+  <!-- Top Status Badge -->
+  <g transform="translate(60, 42)">
+    <rect width="320" height="28" rx="14" class="status-pill"/>
+    <circle cx="16" cy="14" r="4.5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="18.5" class="font-mono" font-size="11.5" font-weight="600" fill="#38BDF8" letter-spacing="0.08em">SYSTEMS // APPLIED AI &amp; BACKEND</text>
   </g>
 
-  <text x="600" y="77" text-anchor="middle" class="label">ENGENHARIA DE SOFTWARE &amp; FULL STACK</text>
-  <text x="600" y="151" text-anchor="middle" class="title">Vinicius Torres</text>
-  <text x="600" y="193" text-anchor="middle" class="subtitle">Python · FastAPI · React · IA Aplicada · Arquitetura Defensiva</text>
+  <!-- Main Title & Bio -->
+  <text x="60" y="132" class="font-sans title-name">Vinicius Torres</text>
+  <text x="60" y="170" class="font-sans subtitle">Software Engineer · APIs Assíncronas, Arquitetura Defensiva &amp; Soluções de IA</text>
 
-  <g aria-label="Stack principal">
-    <g transform="translate(170 226)">
-      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
-      <circle cx="26" cy="19" r="5.5" fill="#3776AB"/>
-      <text x="44" y="24" class="pill-text">Python</text>
+  <!-- Tech Badges Bar -->
+  <g transform="translate(60, 202)">
+    <!-- Python -->
+    <g transform="translate(0, 0)">
+      <rect width="102" height="30" rx="6" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <circle cx="15" cy="15" r="4" fill="#38BDF8"/>
+      <text x="26" y="19" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">Python</text>
     </g>
-    <g transform="translate(324 226)">
-      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
-      <circle cx="26" cy="19" r="5.5" fill="#009688"/>
-      <text x="44" y="24" class="pill-text">FastAPI</text>
+    <!-- FastAPI -->
+    <g transform="translate(112, 0)">
+      <rect width="102" height="30" rx="6" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <circle cx="15" cy="15" r="4" fill="#009688"/>
+      <text x="26" y="19" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">FastAPI</text>
     </g>
-    <g transform="translate(478 226)">
-      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
-      <circle cx="26" cy="19" r="5.5" fill="#61DAFB"/>
-      <text x="44" y="24" class="pill-text">React 19</text>
+    <!-- React 19 -->
+    <g transform="translate(224, 0)">
+      <rect width="108" height="30" rx="6" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <circle cx="15" cy="15" r="4" fill="#61DAFB"/>
+      <text x="26" y="19" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">React 19</text>
     </g>
-    <g transform="translate(632 226)">
-      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
-      <circle cx="26" cy="19" r="5.5" fill="#336791"/>
-      <text x="44" y="24" class="pill-text">SQL / Postgres</text>
+    <!-- Docker -->
+    <g transform="translate(342, 0)">
+      <rect width="100" height="30" rx="6" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <circle cx="15" cy="15" r="4" fill="#2496ED"/>
+      <text x="26" y="19" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">Docker</text>
     </g>
-    <g transform="translate(786 226)">
-      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
-      <circle cx="26" cy="19" r="5.5" fill="#2496ED"/>
-      <text x="44" y="24" class="pill-text">Docker</text>
-    </g>
-    <g transform="translate(940 226)">
-      <rect x="0.5" y="0.5" width="138" height="37" rx="18.5" class="pill stroke"/>
-      <circle cx="26" cy="19" r="5.5" fill="#10B981"/>
-      <text x="44" y="24" class="pill-text">Pytest (88+)</text>
+    <!-- SQL / Postgres -->
+    <g transform="translate(452, 0)">
+      <rect width="128" height="30" rx="6" fill="#1E293B" fill-opacity="0.6" stroke="#334155"/>
+      <circle cx="15" cy="15" r="4" fill="#336791"/>
+      <text x="26" y="19" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">PostgreSQL</text>
     </g>
   </g>
+
+  <!-- Right Side: Engineering Telemetry HUD Cards -->
+  <g transform="translate(680, 52)">
+    <!-- Metric 1: Latency -->
+    <g transform="translate(0, 0)">
+      <rect width="220" height="95" class="metric-card"/>
+      <text x="18" y="32" class="font-mono metric-lbl">Matching Latency</text>
+      <text x="18" y="66" class="font-mono metric-val" fill="#10B981">⚡ &lt; 3.5s</text>
+      <text x="18" y="83" class="font-sans" font-size="11" fill="#64748B">redução de 90% via Batching</text>
+    </g>
+
+    <!-- Metric 2: Test Suite -->
+    <g transform="translate(240, 0)">
+      <rect width="220" height="95" class="metric-card"/>
+      <text x="18" y="32" class="font-mono metric-lbl">Test Coverage</text>
+      <text x="18" y="66" class="font-mono metric-val" fill="#38BDF8">🧪 88 / 88</text>
+      <text x="18" y="83" class="font-sans" font-size="11" fill="#64748B">testes green no Pytest</text>
+    </g>
+
+    <!-- Metric 3: Security -->
+    <g transform="translate(0, 115)">
+      <rect width="220" height="95" class="metric-card"/>
+      <text x="18" y="32" class="font-mono metric-lbl">Threat Defense</text>
+      <text x="18" y="66" class="font-mono metric-val" fill="#A855F7">🛡️ OWASP Top 10</text>
+      <text x="18" y="83" class="font-sans" font-size="11" fill="#64748B">BOLA/IDOR &amp; DoS Blindados</text>
+    </g>
+
+    <!-- Metric 4: Production -->
+    <g transform="translate(240, 115)">
+      <rect width="220" height="95" class="metric-card"/>
+      <text x="18" y="32" class="font-mono metric-lbl">Deploy Status</text>
+      <text x="18" y="66" class="font-mono metric-val" fill="#F59E0B">🚀 Live in Prod</text>
+      <text x="18" y="83" class="font-sans" font-size="11" fill="#64748B">Vercel &amp; Render Cloud</text>
+    </g>
+  </g>
+
+  <!-- Bottom Cyber Border -->
+  <rect x="0" y="318" width="1200" height="2" fill="url(#accentGlow)"/>
 </svg>
