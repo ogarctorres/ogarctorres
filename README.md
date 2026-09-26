@@ -1,41 +1,40 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Vinicius Torres — Software Engineer &amp; Applied AI" width="100%" />
+  <img src="./assets/banner.svg" alt="Vinicius Torres — Desenvolvedor Backend" width="100%" />
 </p>
 
 ---
 
-### ⚡ Sobre Mim &amp; Filosofia de Engenharia
+### ⚡ Sobre Mim
 
-Sou Desenvolvedor de Software focado em **Engenharia de Backend**, **APIs Assíncronas de Alta Performance**, **Arquitetura de Segurança Defensiva** e **Aplicações de Inteligência Artificial Generativa**.
+Desenvolvedor Backend em formação, com foco em **Python**, **FastAPI** e desenvolvimento de **APIs REST**. Atualmente curso **Ciência da Computação** e busco minha primeira oportunidade profissional na área de tecnologia (estágio / júnior).
 
-Minha atuação é pautada por três pilares práticos:
-1. **Otimização de Gargalos e I/O:** Redução de latência por meio de arquiteturas orientadas a eventos e processamento em lote (*batch matching*).
-2. **Segurança por Design:** Aplicação rigorosa das diretrizes **OWASP Top 10**, neutralizando vulnerabilidades de BOLA/IDOR, injeção de prompts e DoS em ingestão de arquivos.
-3. **Cultura de Testes & Regressão Zero:** Suítes contínuas de testes unitários e de integração que garantem estabilidade antes de qualquer deploy em produção.
+Tenho me dedicado à construção e entrega de projetos próprios aplicando fundamentos de engenharia de software:
+1. **Desenvolvimento de APIs &amp; Backend:** Estruturação de rotas REST, persistência com SQLAlchemy e modelagem de bancos de dados relacionais (PostgreSQL e SQL).
+2. **Qualidade de Código &amp; Testes:** Criação de suítes de testes automatizados com **Pytest** para validar regras de negócio e evitar regressões.
+3. **Integrações &amp; Conhecimento Complementar:** Consumo e integração de APIs externas (incluindo Gemini API) e desenvolvimento de interfaces com **React** e **TypeScript** para conectar projetos de ponta a ponta.
 
 <p align="center">
-  <img src="./assets/terminal-card.svg" alt="Console de Telemetria e Diagnóstico do Perfil de Vinicius Torres" width="100%" />
+  <img src="./assets/terminal-card.svg" alt="Console de Perfil de Vinicius Torres" width="100%" />
 </p>
 
 ---
 
-### 🏛️ Pilares de Engenharia &amp; Especialidades
+### 🏛️ Estrutura Técnica &amp; Foco
 
 ```
 ┌───────────────────────────────┬───────────────────────────────┬───────────────────────────────┐
-│     BACKEND & PERFORMANCE     │      DEFENSIVE SECURITY       │      APPLIED AI & LLMOPS      │
+│       BACKEND (PRINCIPAL)     │     ENGENHARIA & FERRAMENTAS  │    CONHECIMENTOS COMPLEMENTARES │
 ├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
-│ • APIs ASGI com FastAPI       │ • Isolamento Multi-tenant     │ • Batch Contextual Matching   │
-│ • Python 3.11 assíncrono      │ • Proteção BOLA / IDOR        │ • Delimitadores XML Seguros   │
-│ • SQLAlchemy & PostgreSQL     │ • Ingestão por Chunks de 64KB │ • Schemas Pydantic v2         │
-│ • Cache TTL em Memória        │ • Validação de Magic Bytes    │ • Circuit Breakers & Fallback │
-│ • Docker & Microserviços      │ • Rate Limiting por Janela    │ • Redução de 90% de Latência  │
+│ • Python 3                    │ • Docker (Containers)         │ • React & TypeScript          │
+│ • FastAPI (APIs REST)         │ • Git & GitHub                │ • JavaScript                  │
+│ • PostgreSQL & SQL            │ • Pytest (Testes Automáticos) │ • Integração com Gemini API   │
+│ • SQLAlchemy ORM              │ • Modelagem de Dados          │ • Consumo de APIs Externas    │
 └───────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
 ---
 
-### 🚀 Produtos em Produção &amp; Projetos Open Source
+### 🚀 Projetos em Destaque
 
 <table>
   <thead>
@@ -47,14 +46,15 @@ Minha atuação é pautada por três pilares práticos:
   <tbody>
     <tr>
       <td valign="top">
-        <h3>⚡ Vektor — Career &amp; Recruitment AI Platform</h3>
-        <p>Plataforma Full Stack SaaS que analisa currículos em PDF, compara competências com vagas reais via APIs em tempo real, gera diagnósticos explicativos, reescrita para ATS e cronogramas acelerados de estudos de 30 dias.</p>
-        <p><strong>Destaques de Engenharia:</strong></p>
+        <h3>⚡ Vektor — Plataforma de Inteligência de Vagas &amp; Carreira</h3>
+        <p>Aplicação web que recebe currículos em PDF, compara requisitos com vagas reais de tecnologia coletadas em tempo real e fornece diagnóstico de compatibilidade, reescrita de currículo para ATS e plano de estudos semanal.</p>
+        <p><strong>Destaques de Implementação:</strong></p>
         <ul>
-          <li>Redução de latência de <strong>40s para &lt;3.5s</strong> com Batch Matching.</li>
-          <li>Esteira de ingestão blindada com <strong>leitura em chunks de 64KB</strong> e limite rígido de 8MB contra DoS de memória.</li>
-          <li>Isolamento de sessão JWT com cache em memória (TTL 60s) e rate limiting granular por IP.</li>
-          <li><strong>88 testes automatizados</strong> cobrindo regras de negócio, IA e segurança.</li>
+          <li>Backend estruturado em <strong>FastAPI</strong> com rotas REST e documentação interativa Swagger.</li>
+          <li>Banco de dados relacional com <strong>SQLAlchemy</strong> para persistência de históricos e análises.</li>
+          <li>Suíte com <strong>88 testes automatizados</strong> utilizando Pytest e TestClient.</li>
+          <li>Integração com a API do Google Gemini para avaliação em lote de vagas.</li>
+          <li>Interface responsiva desenvolvida em <strong>React</strong> conectada à API.</li>
         </ul>
         <p>
           <a href="https://github.com/ogarctorres/job-matcher-"><strong>Repositório</strong></a> • 
@@ -64,14 +64,14 @@ Minha atuação é pautada por três pilares práticos:
       </td>
       <td valign="top">
         <h3>📊 Bus Factor Radar</h3>
-        <p>Ferramenta de mineração de dados em repositórios para cálculo do risco de continuidade técnica de código (Bus Factor).</p>
-        <p><code>Python</code> <code>Git Data Mining</code> <code>Pandas</code> <code>Docker</code></p>
+        <p>Ferramenta desenvolvida em Python para análise de métricas em repositórios Git, avaliando o grau de dependência e distribuição de conhecimento em bases de código.</p>
+        <p><code>Python</code> <code>Git API</code> <code>Análise de Dados</code> <code>Docker</code></p>
         <br />
         <h3>⏳ Code Time Machine</h3>
-        <p>Motor de análise temporal de evolução de código e refatorações complexas.</p>
-        <p><code>Python</code> <code>AST Analysis</code> <code>Clean Architecture</code></p>
+        <p>Ferramenta em Python voltada para acompanhamento e visualização da evolução histórica de arquivos e commits em projetos de software.</p>
+        <p><code>Python</code> <code>Git</code> <code>Estruturas de Dados</code></p>
         <br />
-        <p><a href="https://github.com/ogarctorres?tab=repositories"><strong>Ver todos os 9+ repositórios no GitHub →</strong></a></p>
+        <p><a href="https://github.com/ogarctorres?tab=repositories"><strong>Ver projetos no GitHub →</strong></a></p>
       </td>
     </tr>
   </tbody>
@@ -83,24 +83,28 @@ Minha atuação é pautada por três pilares práticos:
 
 <table border="0">
   <tr>
-    <td width="25%"><strong>Backend &amp; APIs</strong></td>
-    <td>Python 3.11, FastAPI, Uvicorn (ASGI), SQLAlchemy ORM, Pydantic v2, PyPDF</td>
+    <td width="28%"><strong>Backend Principal</strong></td>
+    <td>Python, FastAPI, REST APIs, PostgreSQL, SQL, SQLAlchemy</td>
   </tr>
   <tr>
-    <td><strong>Frontend</strong></td>
-    <td>React 19, Vite, JavaScript ES6+, Context API, CSS Acelerado por GPU</td>
+    <td><strong>Testes &amp; Qualidade</strong></td>
+    <td>Pytest (testes unitários e de integração de rotas)</td>
   </tr>
   <tr>
-    <td><strong>Dados &amp; Armazenamento</strong></td>
-    <td>PostgreSQL, SQLite, Supabase Database, Pandas</td>
+    <td><strong>Ferramentas</strong></td>
+    <td>Docker, Git, GitHub</td>
   </tr>
   <tr>
-    <td><strong>Inteligência Artificial</strong></td>
-    <td>Google Gemini Flash API, Engenharia de Prompts Estruturada, Guardrails</td>
+    <td><strong>Frontend (Complementar)</strong></td>
+    <td>TypeScript, React, JavaScript</td>
   </tr>
   <tr>
-    <td><strong>Segurança &amp; DevOps</strong></td>
-    <td>Autenticação JWT Bearer, Rate Limiting (Sliding Window), Docker, Pytest (88 testes), Git</td>
+    <td><strong>IA (Integração Complementar)</strong></td>
+    <td>Gemini API (integração em projetos práticos)</td>
+  </tr>
+  <tr>
+    <td><strong>Em Estudo / Direção Futura</strong></td>
+    <td>Redis, Next.js, CI/CD</td>
   </tr>
 </table>
 
@@ -122,6 +126,6 @@ Minha atuação é pautada por três pilares práticos:
 
 <p>
   <a href="https://github.com/ogarctorres"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ogarctorres-111827?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/ogarctorres?tab=repositories"><img alt="Repositórios" src="https://img.shields.io/badge/Projetos-9%20Repos-0284C7?style=for-the-badge&logo=git&logoColor=white" /></a>
-  <a href="mailto:ogarcfacul@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contato_Direto-10B981?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/ogarctorres?tab=repositories"><img alt="Repositórios" src="https://img.shields.io/badge/Projetos-Ver%20Reposit%C3%B3rios-0284C7?style=for-the-badge&logo=git&logoColor=white" /></a>
+  <a href="mailto:ogarcfacul@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-ogarcfacul%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>

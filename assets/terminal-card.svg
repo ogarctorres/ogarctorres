@@ -27,48 +27,46 @@
   <circle cx="44" cy="21" r="6" fill="#F59E0B" fill-opacity="0.85"/>
   <circle cx="64" cy="21" r="6" fill="#10B981" fill-opacity="0.85"/>
 
-  <text x="480" y="26" text-anchor="middle" class="t-mono" font-size="13" fill="#64748B">vinicius@torres-core: ~/workspace/vektor</text>
+  <text x="480" y="26" text-anchor="middle" class="t-mono" font-size="13" fill="#64748B">vinicius@torres-dev: ~/perfil</text>
 
   <!-- Terminal Session -->
-  <!-- Line 1: Command Prompt -->
   <text x="32" y="74" class="t-mono">
     <tspan class="prompt">➜ </tspan>
     <tspan class="branch">ogarctorres git:(main) </tspan>
-    <tspan class="cmd">fastfetch --profile engineer</tspan>
+    <tspan class="cmd">fastfetch --profile backend-developer</tspan>
   </text>
 
-  <!-- Decorative Separator -->
   <text x="32" y="104" class="t-mono" font-size="13" fill="#334155">--------------------------------------------------------------------------------</text>
 
   <!-- Key-Value Telemetry Block -->
   <text x="32" y="132" class="t-mono">
-    <tspan class="key">architecture  │ </tspan>
-    <tspan class="val">APIs Assíncronas em </tspan><tspan class="highlight-cyan">FastAPI</tspan><tspan class="val">, Webhooks, Arquitetura em Camadas &amp; Pydantic v2</tspan>
+    <tspan class="key">posicionamento│ </tspan>
+    <tspan class="val">Desenvolvedor </tspan><tspan class="highlight-cyan">Backend em formação</tspan><tspan class="val"> · Cursando Ciência da Computação</tspan>
   </text>
 
   <text x="32" y="162" class="t-mono">
-    <tspan class="key">security      │ </tspan>
-    <tspan class="val">Supabase JWT com </tspan><tspan class="highlight-green">Cache TTL (60s)</tspan><tspan class="val">, Rate Limiting Sliding-Window &amp; Multi-Tenant</tspan>
+    <tspan class="key">stack-core    │ </tspan>
+    <tspan class="val">Python 3.11, </tspan><tspan class="highlight-green">FastAPI</tspan><tspan class="val">, PostgreSQL, SQL e SQLAlchemy ORM</tspan>
   </text>
 
   <text x="32" y="192" class="t-mono">
-    <tspan class="key">data &amp; io     │ </tspan>
-    <tspan class="val">Upload defensivo em </tspan><tspan class="highlight-amber">chunks 64KB</tspan><tspan class="val">, validação de Magic Bytes binários (%PDF-)</tspan>
+    <tspan class="key">qualidade     │ </tspan>
+    <tspan class="val">Testes automatizados com </tspan><tspan class="highlight-cyan">Pytest</tspan><tspan class="val"> (88 testes implementados nos projetos)</tspan>
   </text>
 
   <text x="32" y="222" class="t-mono">
-    <tspan class="key">applied-ai    │ </tspan>
-    <tspan class="val">Google Gemini Flash via </tspan><tspan class="highlight-purple">Batch Matching</tspan><tspan class="val"> (de 40s para &lt;3.5s) + Guardrails Anti-Injection</tspan>
+    <tspan class="key">ferramentas   │ </tspan>
+    <tspan class="val">Ambientes com </tspan><tspan class="highlight-amber">Docker</tspan><tspan class="val">, controle de versão com Git e GitHub</tspan>
   </text>
 
   <text x="32" y="252" class="t-mono">
-    <tspan class="key">reliability   │ </tspan>
-    <tspan class="highlight-green">88 testes automatizados</tspan><tspan class="val"> (Pytest) cobrindo regras, segurança e resiliência E2E</tspan>
+    <tspan class="key">frontend-aux  │ </tspan>
+    <tspan class="val">Conhecimento complementar em </tspan><tspan class="highlight-cyan">React</tspan><tspan class="val">, TypeScript e JavaScript</tspan>
   </text>
 
   <text x="32" y="282" class="t-mono">
-    <tspan class="key">production    │ </tspan>
-    <tspan class="val">SaaS rodando em </tspan><tspan class="highlight-cyan">vektor-career.vercel.app</tspan><tspan class="val"> (Render + Vercel)</tspan>
+    <tspan class="key">integracoes-ia│ </tspan>
+    <tspan class="val">Consumo de APIs de LLM (</tspan><tspan class="highlight-purple">Gemini API</tspan><tspan class="val">) integrado a projetos de software</tspan>
   </text>
 
   <!-- Cursor -->
