@@ -1,116 +1,97 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Vinicius Torres — Desenvolvedor Backend" width="100%" />
+  <img src="./assets/banner.svg" alt="Vinicius Torres — Desenvolvedor de Software" width="100%" />
 </p>
 
 ---
 
-### ⚡ Sobre Mim
+### Sobre Mim
 
-Desenvolvedor Backend em formação, com foco em **Python**, **FastAPI** e desenvolvimento de **APIs REST**. Atualmente curso **Ciência da Computação** e busco minha primeira oportunidade profissional na área de tecnologia (estágio / júnior).
+Estudante de **Ciência da Computação** com foco em **Desenvolvimento de Software** e **Backend**. Desenvolvo projetos práticos aplicando princípios de engenharia de software: arquitetura em camadas, criação de APIs REST documentadas, persistência com bancos de dados relacionais, suítes de testes automatizados e deploy em produção.
 
-Tenho me dedicado à construção e entrega de projetos próprios aplicando fundamentos de engenharia de software:
-1. **Desenvolvimento de APIs &amp; Backend:** Estruturação de rotas REST, persistência com SQLAlchemy e modelagem de bancos de dados relacionais (PostgreSQL e SQL).
-2. **Qualidade de Código &amp; Testes:** Criação de suítes de testes automatizados com **Pytest** para validar regras de negócio e evitar regressões.
-3. **Integrações &amp; Conhecimento Complementar:** Consumo e integração de APIs externas (incluindo Gemini API) e desenvolvimento de interfaces com **React** e **TypeScript** para conectar projetos de ponta a ponta.
+Busco oportunidade de estágio na área de desenvolvimento de software para somar em times de engenharia, contribuir na construção de aplicações escaláveis e continuar evoluindo tecnicamente.
 
 <p align="center">
-  <img src="./assets/terminal-card.svg" alt="Console de Perfil de Vinicius Torres" width="100%" />
+  <img src="./assets/terminal-card.svg" alt="Resumo de Perfil — Vinicius Torres" width="100%" />
 </p>
 
 ---
 
-### 🏛️ Estrutura Técnica &amp; Foco
+### Tech Stack
 
-```
-┌───────────────────────────────┬───────────────────────────────┬───────────────────────────────┐
-│       BACKEND (PRINCIPAL)     │     ENGENHARIA & FERRAMENTAS  │    CONHECIMENTOS COMPLEMENTARES │
-├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
-│ • Python 3                    │ • Docker (Containers)         │ • React & TypeScript          │
-│ • FastAPI (APIs REST)         │ • Git & GitHub                │ • JavaScript                  │
-│ • PostgreSQL & SQL            │ • Pytest (Testes Automáticos) │ • Integração com Gemini API   │
-│ • SQLAlchemy ORM              │ • Modelagem de Dados          │ • Consumo de APIs Externas    │
-└───────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
-```
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens** | Python, JavaScript, SQL *(Java em aprofundamento ativo)* |
+| **Backend & APIs** | FastAPI, Flask, REST APIs, Pydantic, Marshmallow, Pytest *(88+ testes automatizados)* |
+| **Bancos de Dados & ORM** | PostgreSQL, SQLite, SQLAlchemy ORM |
+| **Frontend** | React (React 19, Vite), Next.js, HTML5/CSS3 |
+| **DevOps & Ferramentas** | Git, GitHub, Docker, Docker Compose, Deploy (Vercel, Render) |
 
 ---
 
-### 🚀 Projetos em Destaque
+### Projeto Principal em Destaque
+
+#### ⚡ Vektor — Plataforma de Inteligência de Vagas e Carreira
+Aplicação Full Stack em produção que realiza a ingestão e leitura de currículos em PDF, compara competências com vagas reais do mercado de tecnologia em tempo real e fornece diagnóstico de compatibilidade, reescrita de currículo para sistemas ATS e plano de estudos personalizado.
+
+* **Arquitetura & Backend:** API assíncrona estruturada em **FastAPI**, com tipagem e validação via Pydantic, rotas REST modularizadas e documentação OpenAPI/Swagger interativa.
+* **Frontend:** Interface responsiva construída em **React 19** com Vite, consumindo a API com interceptadores e tratamento defensivo de estados.
+* **Banco de Dados:** Persistência relacional com **SQLAlchemy ORM** e schema DDL para **PostgreSQL**, com índices de performance e Row Level Security (RLS).
+* **Integrações & IA:** Consumo de APIs de vagas em tempo real (Jooble e Adzuna) e integração com a Google Gemini API com mecanismo de resiliência e fallback para avaliações em lote.
+* **Qualidade de Software:** Suíte com **88 testes automatizados** utilizando Pytest e FastAPI TestClient cobrindo regras de negócio e rotas ponta a ponta.
+* **DevOps & Deploy:** Containerização com **Dockerfile** e **Docker Compose**; deploy contínuo em produção no Render (API) e Vercel (Frontend).
+
+🔗 **[Ver Repositório](https://github.com/ogarctorres/job-matcher-)** • **[Aplicação no Ar](https://vektor-career.vercel.app)** • **[Swagger Docs da API](https://vektor-0nam.onrender.com/docs)**
+
+---
+
+### Outros Projetos Relevantes
 
 <table>
-  <thead>
-    <tr>
-      <th width="50%">Projeto Principal</th>
-      <th width="50%">Projetos de Engenharia &amp; Dados</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">
-        <h3>⚡ Vektor — Plataforma de Inteligência de Vagas &amp; Carreira</h3>
-        <p>Aplicação web que recebe currículos em PDF, compara requisitos com vagas reais de tecnologia coletadas em tempo real e fornece diagnóstico de compatibilidade, reescrita de currículo para ATS e plano de estudos semanal.</p>
-        <p><strong>Destaques de Implementação:</strong></p>
-        <ul>
-          <li>Backend estruturado em <strong>FastAPI</strong> com rotas REST e documentação interativa Swagger.</li>
-          <li>Banco de dados relacional com <strong>SQLAlchemy</strong> para persistência de históricos e análises.</li>
-          <li>Suíte com <strong>88 testes automatizados</strong> utilizando Pytest e TestClient.</li>
-          <li>Integração com a API do Google Gemini para avaliação em lote de vagas.</li>
-          <li>Interface responsiva desenvolvida em <strong>React</strong> conectada à API.</li>
-        </ul>
-        <p>
-          <a href="https://github.com/ogarctorres/job-matcher-"><strong>Repositório</strong></a> • 
-          <a href="https://vektor-career.vercel.app"><strong>Aplicação Web</strong></a> • 
-          <a href="https://vektor-0nam.onrender.com/docs"><strong>Swagger Docs</strong></a>
-        </p>
-      </td>
-      <td valign="top">
-        <h3>📊 Bus Factor Radar</h3>
-        <p>Ferramenta desenvolvida em Python para análise de métricas em repositórios Git, avaliando o grau de dependência e distribuição de conhecimento em bases de código.</p>
-        <p><code>Python</code> <code>Git API</code> <code>Análise de Dados</code> <code>Docker</code></p>
-        <br />
-        <h3>⏳ Code Time Machine</h3>
-        <p>Ferramenta em Python voltada para acompanhamento e visualização da evolução histórica de arquivos e commits em projetos de software.</p>
-        <p><code>Python</code> <code>Git</code> <code>Estruturas de Dados</code></p>
-        <br />
-        <p><a href="https://github.com/ogarctorres?tab=repositories"><strong>Ver projetos no GitHub →</strong></a></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### 🛠️ Stack Tecnológica
-
-<table border="0">
   <tr>
-    <td width="28%"><strong>Backend Principal</strong></td>
-    <td>Python, FastAPI, REST APIs, PostgreSQL, SQL, SQLAlchemy</td>
+    <td width="50%" valign="top">
+      <h4>🔐 API de Tarefas com Autenticação JWT</h4>
+      <p>API REST completa construída em Flask com autenticação stateless por token JWT, controle de acesso por usuário, persistência via SQLAlchemy e documentação automática Swagger.</p>
+      <p><strong>Destaques:</strong> Autenticação segura com Flask-JWT-Extended, validação de schemas com Marshmallow, cobertura de testes automatizados com Pytest.</p>
+      <p><code>Python</code> <code>Flask</code> <code>SQLAlchemy</code> <code>JWT</code> <code>Pytest</code> <code>Swagger</code></p>
+      <a href="https://github.com/ogarctorres/api-tarefas-flask-jwt"><strong>Ver Repositório →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📈 Painel Econômico Brasil (Boletim BCB)</h4>
+      <p>Dashboard Full Stack em produção que consome dados em tempo real da API oficial do Banco Central do Brasil (SGS) para monitoramento de Selic, Dólar e IPCA.</p>
+      <p><strong>Destaques:</strong> Ingestão e tratamento de dados de API pública, persistência relacional para evitar requisições redundantes, gráficos interativos com Chart.js e deploy no Render.</p>
+      <p><code>Python</code> <code>Flask</code> <code>SQLite</code> <code>JavaScript</code> <code>Chart.js</code> <code>Deploy Render</code></p>
+      <a href="https://github.com/ogarctorres/dashboard-economico-brasil"><strong>Ver Repositório →</strong></a> • <a href="https://dashboard-economico-brasil-3.onrender.com/"><strong>Acessar Projeto →</strong></a>
+    </td>
   </tr>
   <tr>
-    <td><strong>Testes &amp; Qualidade</strong></td>
-    <td>Pytest (testes unitários e de integração de rotas)</td>
-  </tr>
-  <tr>
-    <td><strong>Ferramentas</strong></td>
-    <td>Docker, Git, GitHub</td>
-  </tr>
-  <tr>
-    <td><strong>Frontend (Complementar)</strong></td>
-    <td>TypeScript, React, JavaScript</td>
-  </tr>
-  <tr>
-    <td><strong>IA (Integração Complementar)</strong></td>
-    <td>Gemini API (integração em projetos práticos)</td>
-  </tr>
-  <tr>
-    <td><strong>Em Estudo / Direção Futura</strong></td>
-    <td>Redis, Next.js, CI/CD</td>
+    <td width="50%" valign="top">
+      <h4>🧭 Bus Factor Radar</h4>
+      <p>Ferramenta de engenharia de software que analisa o histórico de commits de repositórios Git públicos e mapeia, através de um grafo interativo, onde o conhecimento técnico está concentrado em uma única pessoa.</p>
+      <p><strong>Destaques:</strong> Análise de autoria por arquivo via Git log, cálculo de risco algorítmico no backend e visualização interativa com React Flow.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Git API</code> <code>Next.js</code> <code>React Flow</code></p>
+      <a href="https://github.com/ogarctorres/bus-factor-radar"><strong>Ver Repositório →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⏱️ Code Time Machine</h4>
+      <p>Ferramenta para acompanhamento histórico da evolução da complexidade de código Python ao longo do tempo em repositórios Git.</p>
+      <p><strong>Destaques:</strong> Extração de histórico temporal de arquivos com Git, cálculo de complexidade ciclomática e métricas com a biblioteca Radon, exibição em gráficos temporais.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Radon</code> <code>Git</code> <code>Recharts</code></p>
+      <a href="https://github.com/ogarctorres/code-time-machine"><strong>Ver Repositório →</strong></a>
+    </td>
   </tr>
 </table>
 
 ---
 
-### 📈 Atividade Contínua &amp; Contribuições
+### Atualmente Estudando & Direção Técnica
+
+* **Java & Ecossistema Spring:** Estudando Programação Orientada a Objetos, Spring Boot 3, Spring Data JPA e testes com JUnit 5 para expandir a atuação em sistemas corporativos de alta demanda. *(Desenvolvendo projeto prático de API REST bancária/crédito)*.
+* **Estruturas de Dados e Algoritmos:** Aprofundamento contínuo em complexidade de tempo/espaço e resolução de problemas práticos.
+* **Bancos de Dados Relacionais & Modelagem:** Otimização de consultas, índices e integridade referencial em PostgreSQL.
+
+---
+
+### Atividade & Contribuições
 
 <p align="center">
   <picture>
@@ -122,10 +103,9 @@ Tenho me dedicado à construção e entrega de projetos próprios aplicando fund
 
 ---
 
-### 📬 Conecte-se comigo
+### Conecte-se Comigo
 
 <p>
   <a href="https://github.com/ogarctorres"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ogarctorres-111827?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/ogarctorres?tab=repositories"><img alt="Repositórios" src="https://img.shields.io/badge/Projetos-Ver%20Reposit%C3%B3rios-0284C7?style=for-the-badge&logo=git&logoColor=white" /></a>
   <a href="mailto:ogarcfacul@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-ogarcfacul%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
