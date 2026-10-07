@@ -107,5 +107,6 @@ Aplicação Full Stack em produção que realiza a ingestão e leitura de currí
 
 <p>
   <a href="https://github.com/ogarctorres"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ogarctorres-111827?style=for-the-badge&logo=github" /></a>
-  <a href="mailto:ogarcfacul@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-ogarcfacul%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/vinicius-t-a0703931b/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Vinicius%20Torres-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:viniciusstgarcia@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-viniciusstgarcia%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" /></a>
 </p>
